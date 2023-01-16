@@ -14,6 +14,7 @@ import Error from "./Error";
 import imagen from "../../img/portada.jpeg"
 import Loading from '../loading/Loading'
 
+
 export default function Home() {
 
     const [state, setState] = useState('') //me creo un estado local cuyo valor incial es vacio
