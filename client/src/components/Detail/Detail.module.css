@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato';
+    background-image: url('../../img/landing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.main_card {
+	color: rgb(7, 7, 7);
+	height: 100%;
+	width: auto;
+	margin: 50px auto;
+	display: flex;
+	max-width: 770px;
+	background-image: linear-gradient(to top, #9c9aff 0%, #d0cffe 99%, #cfd1fe 100%);
+    box-shadow: 0 0 5px rgb(240, 245, 255),
+    0 0 10px rgb(205, 204, 255),
+    0 0 15px rgb(179, 180, 255),
+    0 0 20px rgb(143, 167, 255),
+    0 0 25px rgb(117, 131, 255),
+    0 0 30px rgb(77, 95, 255);
+}
+
+.card_left {
+	width: 100%;
+    border: 1px solid black;
+}
+
+.card_datails {
+	width: 90%;
+	padding: 30px;
+	margin-top: -25px;
+}
+
+.nombre {
+    font-size: 30px;
+	font-family: "Playfair Display SC";
+}
+
+.card_right img {
+    width: 100%;
+	height: 100%;
+    border: 1px solid black;
+}
+.card_right {
+	height: auto;
+	width: 100%;
+}
+
+.card_cat {
+    margin-top: 20px;
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding-right: 5px;
+}
+
+.rating .genres .fecha{
+    color: #FFCDB2;
+	padding: 10px;
+	font-weight: bold;
+	border-radius: 15px;
+}
+
+.rating {
+    background: #6D6875;
+    padding: 5px;
+	color: yellow;
+}
+
+.description{
+    font-weight: 50;
+	line-height: 15px;
+    font-size: 13px;
+    margin-top: 25px;
+    text-align: center;
+	padding: 0 5px;
+}
+
+.plataformas {
+    font-weight: 50;
+	line-height: 15px;
+    font-size: 13px;
+    margin-top: 25px;
+    text-align: center;
+	padding: 0 5px;
+}
+
+.btn {
+    color: #fff;
+	text-decoration: none;
+    margin-left: 15px;
+	border: #fff;
+	padding: 8px;
+	width: 20%;
+	outline: none;
+	font-size: 16px;
+	font-family: system-ui;
+	margin-top: 15px;
+	margin-left: 10px;
+	background: black;
+	border-radius: 8px;
+	box-shadow:  
+    0 0 5px rgb(240, 245, 255),
+    0 0 10px rgb(205, 204, 255),
+    0 0 15px rgb(179, 180, 255),
+    0 0 20px rgb(143, 167, 255),
+    0 0 25px rgb(117, 131, 255),
+    0 0 30px rgb(77, 95, 255);
+}

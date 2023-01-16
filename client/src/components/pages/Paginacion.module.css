@@ -1,0 +1,60 @@
+.paginacion {
+  display: inline-block;
+  padding: 0px;
+  margin: 20px;
+  
+}
+
+.paginacion button {
+  border: 1px solid white;
+  box-shadow:
+    0 0 5px rgb(240, 245, 255),
+    0 0 10px rgb(205, 204, 255),
+    0 0 15px rgb(179, 180, 255),
+    0 0 20px rgb(143, 167, 255),
+    0 0 25px rgb(117, 131, 255),
+    0 0 30px rgb(77, 95, 255);
+  float: left;
+  padding: 10px 17px;
+  background-color: #8483b5;
+  margin: 0 10px
+  
+}
+
+.paginacion button:focus {
+  background-color: black;
+  color: azure;
+}
+
+.paginacion button.activo {
+  box-shadow:
+    0 0 5px rgb(240, 245, 255),
+    0 0 10px rgb(205, 204, 255),
+    0 0 15px rgb(179, 180, 255),
+    0 0 20px rgb(143, 167, 255),
+    0 0 25px rgb(117, 131, 255),
+    0 0 30px rgb(77, 95, 255);
+    background-color: #8483b5;
+}
+
+.paginacion button:hover:not(.activo) {
+  box-shadow:
+    0 0 5px rgb(240, 254, 255),
+    0 0 10px rgb(204, 253, 255),
+    0 0 15px rgb(179, 239, 255),
+    0 0 20px rgb(143, 238, 255),
+    0 0 25px rgb(117, 209, 255),
+    0 0 30px rgb(77, 231, 255);
+    background-color: #8483b5;
+}
+
+.paginacion button:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.paginacion button:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
