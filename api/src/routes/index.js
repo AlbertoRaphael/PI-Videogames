@@ -163,6 +163,5 @@ router.post('/videogame', async (req, res) => {
   gameCreated.addGenre(genreDb)
   res.send("Videogame creado con exito!")
 })
-
 module.exports = router;
 // module.exports = getGenres
