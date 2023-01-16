@@ -6,5 +6,6 @@ import rootReducer from "../reducer/index";
  const store = createStore(rootReducer, 
     composeWithDevTools(applyMiddleware(thunk))); // para que se puedan unar los devtools
  
+
     
  export default store;
