@@ -2,6 +2,7 @@ const { Genres } = require("../db");
 const axios = require("axios");
 const { API_KEY } = process.env;
 
+
 //Se crea una constante que trae los generos mediante un endpoint y con otra constante nos permite
 //determinar si se encuentra datos en el modelo generos o sino lo crea, sirve para almacenar los 
 //datos de generos en la base de datos
