@@ -6,6 +6,7 @@ import { getVideogame } from "../Redux/action/index";
 import img from '../../img/control.jpg'
 import style from '../Detail/Detail.module.css'
 import Loading from '../loading/Loading'
+ 
 
 function Detail() {
 
