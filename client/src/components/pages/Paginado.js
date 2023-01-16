@@ -1,6 +1,7 @@
 import React from "react";
 import s from './Paginacion.module.css'
 
+
 const Paginado = ({gamesPerPage, allGames, paginado}) => {
 
     const pageNumber = []
