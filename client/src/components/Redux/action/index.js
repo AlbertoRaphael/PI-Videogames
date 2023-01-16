@@ -10,6 +10,7 @@ export const FILTER_BY_SOURCE = "FILTER_BY_SOURCE";
 export const FILTER_BY_GENRES = "FILTER_BY_GENRES";
 export const GET_PLATFORMS = 'GET_PLATFORMS'
 
+
 export const getAllVideogames = () => {
   return async (dispatch) => {
     try {
