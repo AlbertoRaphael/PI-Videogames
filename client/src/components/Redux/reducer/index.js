@@ -12,6 +12,7 @@ import {
    
 } from '../action/index.js'
 
+
 const initialState = {
     allVideogames: [],//para hacerle filtros y guardar el state
     videogames: [],//ME TRAE TODO
