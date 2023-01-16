@@ -6,7 +6,6 @@ import s from './Card.module.css'
 export default function Card({ name, image, genres, id, rating }) {
 
 /* class CardVideogame extends React.Component { */
- 
 
     /* render() { */
     
