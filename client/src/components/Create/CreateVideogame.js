@@ -7,7 +7,6 @@ import s from '../Create/CreateVideogame.module.css';
 import { NavLink } from "react-router-dom";
 import { useNavigate } from 'react-router-dom'
  
-
 function validate (input) {
     let errors = {}
 
